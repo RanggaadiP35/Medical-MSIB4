@@ -14,11 +14,11 @@
                         </div>
                         <form>
                             <div class="form-group">
-                            <label for="exampleFormControlInput1">Nama Lengkap</label>
+                                <label for="exampleFormControlInput1">Nama Lengkap</label>
                                 <input type="text" class="form-control" id="name" placeholder=" Masukkan Nama Lengkap">
                             </div>
                             <div class="form-group">
-                            <label for="exampleFormControlInput1">Domisili</label>
+                                <label for="exampleFormControlInput1">Domisili</label>
                                 <input type="text" class="form-control" id="domisili" placeholder=" Masukkan Alamat Domisili">
                             </div>
                             <div class="form-group">
@@ -30,17 +30,18 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                            <label for="exampleFormControlInput1">Umur</label>
+                                <label for="exampleFormControlInput1">Umur</label>
                                 <input type="text" class="form-control" id="age" placeholder=" Masukkan Umur">
                             </div>
                             <div class="form-group">
-                            <label for="exampleFormControlInput1">Tinggi Badan</label>
+                                <label for="exampleFormControlInput1">Tinggi Badan</label>
                                 <input type="text" class="form-control" id="bodyHeight" placeholder=" Masukkan Tinggi Badan">
                             </div>
                             <div class="form-group">
-                            <label for="exampleFormControlInput1">Berat Badan</label>
+                                <label for="exampleFormControlInput1">Berat Badan</label>
                                 <input type="text" class="form-control" id="bodyWeight" placeholder=" Masukkan Berat Badan">
                             </div>
+                            <button class="btn btn-info">Submit</button>
                         </form>
                     </div>
                 </div>

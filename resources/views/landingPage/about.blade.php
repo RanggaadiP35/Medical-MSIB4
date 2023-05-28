@@ -1,6 +1,6 @@
 @extends('landingPage.index')
 @section('content')
-<section class="about_section ">
+<section class="about_section layout_padding">
     <div class="container  ">
         <div class="row">
             <div class="col-md-6 ">
@@ -16,17 +16,15 @@
                         </h2>
                     </div>
                     <p>
-                    Website ini...... are many variations of passages of Lorem Ipsum available, 
-                    but the majority have suffered alteration in some form, by injected humour, 
-                    or randomised words which don't look even slightly believable. If you are going 
-                    to use a passage of Lorem Ipsum, you need to be sure there isn't anything 
-                    embarrassing hidden in the middle of text.
+                    Website ini merupakan sebuah web yang dibuat bertujuan untuk mengetahui 
+                    kondisi fisik masyarakat di kecamatan ... dengan mempertimbangkan data tinggi 
+                    badan dan berat badan.
                     </p>
-                    <p>
+                    <!-- <p>
                     Website ini memiliki filosofi logo dari kata "pulse" berhubungan dengan detak 
                     jantung yang melambangkan kehidupan dan keberlanjutan, menggambarkan platform 
                     yang memantau dan mengukur kesehatan masyarakat dalam berbagai isu.
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>
