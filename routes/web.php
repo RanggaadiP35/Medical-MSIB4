@@ -13,6 +13,27 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// ----- Route Landing Page -----
 Route::get('/', function () {
-    return view('welcome');
+    return view('landingPage.home');
 });
+
+Route::get('/homePage', function () {
+    return view('landingPage.menu');
+});
+
+Route::get('/about', function () {
+    return view('landingPage.about');
+});
+
+Route::get('/survey', function () {
+    return view('landingPage.survey');
+});
+
+Route::get('/teams', function () {
+    return view('landingPage.teams');
+});
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
