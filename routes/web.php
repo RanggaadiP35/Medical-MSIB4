@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\surveyController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,9 +27,9 @@ Route::get('/about', function () {
     return view('landingPage.about');
 });
 
-Route::get('/survey', function () {
-    return view('landingPage.survey');
-});
+Route::resource('survey', surveyController::class);
+// Route::get('survey', [surveyController::class, 'create']);
+// Route::post('survey', [surveyController::class, 'store'])->name('survey.store');
 
 Route::get('/teams', function () {
     return view('landingPage.teams');

@@ -1,7 +1,7 @@
 @extends('landingPage.home')
 @section('content')
 <!-- department section -->
-  <section class="department_section layout_padding">
+  <!-- <section class="department_section layout_padding">
     <div class="department_container">
       <div class="container ">
         <div class="heading_container heading_center">
@@ -81,6 +81,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
+  @include('landingPage.about')
   <!-- end department section -->
 @endsection
