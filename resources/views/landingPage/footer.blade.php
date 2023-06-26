@@ -1,7 +1,7 @@
 <footer class="footer_section">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-lg-3 footer_col">
+            <!-- <div class="col-md-6 col-lg-3 footer_col">
                 <div class="footer_contact">
                     <h4>
                         Reach at..
@@ -41,14 +41,16 @@
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                     </a>
                 </div>
-            </div>
+            </div> -->
             <div class="col-md-6 col-lg-3 footer_col">
                 <div class="footer_detail">
                     <h4>
                         About
                     </h4>
                     <p>
-                        Beatae provident nobis mollitia magnam voluptatum, unde dicta facilis minima veniam corporis laudantium alias tenetur eveniet illum reprehenderit fugit a delectus officiis blanditiis ea.
+                        Website ini merupakan sebuah web yang dibuat bertujuan untuk mengetahui
+                        kondisi fisik masyarakat di kecamatan ... dengan mempertimbangkan data tinggi
+                        badan dan berat badan.
                     </p>
                 </div>
             </div>
@@ -58,40 +60,43 @@
                         Links
                     </h4>
                     <div class="footer_links">
-                        <a class="active" href="index.html">
+                        <a class="active" href="{{ url('/homePage') }}">
                             Home
                         </a>
-                        <a class="" href="about.html">
+                        <a class="" href="{{ url('/about') }}">
                             About
                         </a>
-                        <a class="" href="departments.html">
-                            Departments
+                        <a class="" href="{{ url('/survey') }}">
+                            Survey
                         </a>
-                        <a class="" href="doctors.html">
-                            Doctors
+                        <a class="" href="{{ url('/teams') }}">
+                            Teams
                         </a>
-                        <a class="" href="contact.html">
-                            Contact Us
+                        <a class="" href="contact.html" target="_blank">
+                            Admin Login
                         </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 footer_col ">
-                <h4>
-                    Newsletter
-                </h4>
-                <form action="#">
+                <!-- <h4>
+                    Mitra Dikti
+                </h4> -->
+                <div class="img-mitra">
+                    <img class="img-logo" src="{{ url('assets/images/logoNF.png') }}" alt="">
+                </div>
+                <!-- <form action="#">
                     <input type="email" placeholder="Enter email" />
                     <button type="submit">
                         Subscribe
                     </button>
-                </form>
+                </form> -->
             </div>
         </div>
         <div class="footer-info">
             <p>
                 &copy; <span id="displayYear"></span> Studi Independent
-                <a href="https://html.design/">MSIB 4<br><br></a>
+                <a href="https://kampusmerdeka.kemdikbud.go.id/program/studi-independen/" target="_blank">MSIB 4<br><br></a>
                 <!-- &copy; <span id="displayYear"></span> Distributed By
                 <a href="https://themewagon.com/">ThemeWagon</a> -->
             </p>

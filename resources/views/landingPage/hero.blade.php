@@ -7,16 +7,19 @@
                         <div class="col-md-7">
                             <div class="detail-box">
                                 <h1>
-                                    We Provide Best Healthcare
+                                    Pemantauan Kondisi Fisik Masyarakat
                                 </h1>
                                 <p>
-                                    Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                                    PULSE adalah sebuah sistem pemantauan kondisi fisik masyarakat yang ringan dan
+                                    mudah digunakan dengan skala kecil. karena pada dasarnya masyarakat akan memerlukan
+                                    cara yang efektif untuk mengurangi masalah tersebut dengan pemberdayaan masyarakat secara mandiri.
+                                    caranya membina kesehatan lingkungan dan membina pola hidup sehat.
                                 </p>
-                                <div class="btn-box">
+                                <!-- <div class="btn-box">
                                     <a href="" class="btn1">
                                         Read More
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -28,16 +31,19 @@
                         <div class="col-md-7">
                             <div class="detail-box">
                                 <h1>
-                                    We Provide Best Healthcare
+                                    Pemantauan Kondisi Fisik Masyarakat
                                 </h1>
                                 <p>
-                                    Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                                    PULSE adalah sebuah sistem pemantauan kondisi fisik masyarakat yang ringan dan
+                                    mudah digunakan dengan skala kecil. karena pada dasarnya masyarakat akan memerlukan
+                                    cara yang efektif untuk mengurangi masalah tersebut dengan pemberdayaan masyarakat secara mandiri.
+                                    caranya membina kesehatan lingkungan dan membina pola hidup sehat.
                                 </p>
-                                <div class="btn-box">
+                                <!-- <div class="btn-box">
                                     <a href="" class="btn1">
                                         Read More
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -49,16 +55,19 @@
                         <div class="col-md-7">
                             <div class="detail-box">
                                 <h1>
-                                    We Provide Best Healthcare
+                                    Pemantauan Kondisi Fisik Masyarakat
                                 </h1>
                                 <p>
-                                    Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                                    PULSE adalah sebuah sistem pemantauan kondisi fisik masyarakat yang ringan dan
+                                    mudah digunakan dengan skala kecil. karena pada dasarnya masyarakat akan memerlukan
+                                    cara yang efektif untuk mengurangi masalah tersebut dengan pemberdayaan masyarakat secara mandiri.
+                                    caranya membina kesehatan lingkungan dan membina pola hidup sehat.
                                 </p>
-                                <div class="btn-box">
+                                <!-- <div class="btn-box">
                                     <a href="" class="btn1">
                                         Read More
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -73,4 +82,3 @@
     </div>
 
 </section>
-

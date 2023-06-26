@@ -954,7 +954,18 @@ a:focus {
   font-size: 15px;
 }
 
-.survey_section .img-sub img{
+.survey_section .img-sub img {
   width: 8%;
   margin-left: 2px;
+}
+
+.form-check-label {
+  font-size: 0.85rem;
+  color: #fff;
+  font-family: nunito;
+}
+
+.footer_section .img-logo {
+  width: 123%;
+  margin-left: -62px;
 }
