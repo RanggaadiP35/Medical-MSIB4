@@ -34,6 +34,8 @@
     <!-- responsive style -->
     <link href="{{ asset('assets/css/responsive.css')}}" rel="stylesheet" />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
 </head>
 
 <body class="sub_page">

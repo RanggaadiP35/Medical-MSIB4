@@ -53,11 +53,11 @@
                         </div>
                         @endif
 
-                        <form action="{{ route('survey.store') }}" method="POST">
+                        <form action="{{ route('survey.store') }}" method="POST" data-toggle="validator">
                             {{ csrf_field() }}
-                            <div class="form-group">
+                            <div class="form-group has-validation">
                                 <label for="exampleFormControlInput1">Nama Lengkap</label>
-                                <input type="text" class="form-control" id="name" name="name" value="" placeholder=" Masukkan Nama Lengkap">
+                                <input type="text" class="form-control" id="name" name="name" value="" placeholder=" Masukkan Nama Lengkap" >
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Domisili</label>
@@ -89,7 +89,17 @@
                                 <label for="exampleFormControlInput1">Berat Badan</label>
                                 <input type="text" class="form-control" id="bodyWeight" name="bodyWeight" value="" placeholder=" Masukkan Berat Badan">
                             </div>
-                            <button type="submit" name="proses" value="simpan" class="btn btn-info">Submit</button>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Dengan menekan tombol 'Setuju' di bawah, Anda mengkonfirmasi bahwa semua
+                                    data yang Anda masukkan dalam formulir ini adalah akurat dan lengkap.
+                                </label>
+                            </div>
+                            <br />
+                            <div class="button">
+                                <button type="submit" name="proses" value="simpan" class="btn btn-info">Submit</button>
+                            </div>
                         </form>
                     </div>
                 </div>
